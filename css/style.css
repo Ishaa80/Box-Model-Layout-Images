@@ -20,7 +20,7 @@ body {
 /* LEFT SECTION */
 .left-section {
     background-color: antiquewhite;
-    background-image: url(/img/pic1.jpg);
+    background-image: url(../img/pic1.jpg);
     background-position: center;
     background-size: cover;
     width: 45%;
