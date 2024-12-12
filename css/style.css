@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 17px;
+}
+
+body {
+    background-color: black;
+}
+
+/* LAYOUT 1 & 2 */
+.main-container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 94vh;
+    margin: 20px;
+}
+
+/* LEFT SECTION */
+.left-section {
+    background-color: antiquewhite;
+    background-image: url(/img/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+/* RIGHT SECTION */
+.right-section {
+    width: 55%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ROW 1  */
+.row-1 {
+    background-color: FloralWhite;
+    height: 80%;
+    padding: 15px;
+    border-radius: 13px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ROW 2 */
+.row-2 {
+    height: 100%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+/* ROW2-COL1 */
+.row2-col1 {
+    background-image: url(/img/pic2.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+/* ROW2-COL2 */
+.row2-col2 {
+    background-image: url(/img/pic3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+/* ROW 3 - FORM */
+.row-3 {
+    background-image: url(/img/pic4.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    height: 80%;
+    padding: 20px;
+    border-radius: 13px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+}
+
+input[type="text"] {
+    margin-right: 40px;
+}
+ 
+input{
+    padding: 3px;
+    border-radius: 6px;
+    border-color: white;
+}
+
+button {
+    width: 50%;
+    border: 1px;
+    border-radius: 5px;
+    margin-left: 150px;
+    font-size: medium;
+    background-color: rgb(16, 85, 182);
+    padding: 5px;
+    color: aliceblue;
+}
+
+/* LAYOUT 2 */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 250px;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 94vh;
+    margin: 20px;
+}
+
+/* SECTION 1 */
+.section1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+/* SECTION 1 - CHILD 1 */
+.section1-c1{
+    background-image: url(/img/uae6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
+/* SECTION 1 - CHILD 2 */
+.section1-c2{
+    background-image: url(/img/uae5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
+/* SECTION 2 */
+.section2{
+    background-image: url(/img/uae4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+/* SECTION 3 */
+.section3{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* SECTION 3 - CHILD 1 */
+.section3-c1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    gap: 20px;
+}
+
+/* SECTION 3 - CHILD 1 - SUB 1*/
+.section-c1-s1{
+    background-image: url(/img/uae8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+}
+
+/* SECTION 3 - CHILD 1 - SUB 2*/
+.section-c1-s2{
+    background-image: url(/img/uae3.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%; 
+}
+
+/* SECTION 3 - CHILD 2 */
+.section3-c2{
+    height: 33%;
+    background-image: url(/img/uae7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* SECTION 3 - CHILD 3 */
+.section3-c3{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    gap: 20px;
+}
+
+/* SECTION 3 - CHILD 3 - SUB 1*/
+.section-c3-s1{
+    background-image: url(/img/uae9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%; 
+}
+
+/* SECTION 3 - CHILD 1 - SUB 2*/
+.section-c3-s2{
+    background-image: url(/img/uae10.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 50%; 
+}
